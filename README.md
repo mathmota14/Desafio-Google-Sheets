@@ -2,14 +2,14 @@
 
 Dado a planilha no [Google Sheets](https://docs.google.com/spreadsheets/d/13K1VCIX41I8HVpdllr_9Si6jhUVhL7awRkBRrVhcYnY/edit#gid=0) ou com a mesma estrutura é necessário calcular a situação de cada aluno baseado na média das 3 provas (P1, P2, P3):
 
-- Se média < 5, então $\color{#eb5252}{\textsf{Reprovado por Nota}}$
-- Se 5 <= média < 7, então $\color{#eded0c}{\textsf{Exame Final}}$
-- Se média >= 7, então $\color{#19cf20}{\textsf{Aprovado}}$
+- Se média < 50, então $\color{#eb5252}{\textsf{Reprovado por Nota}}$
+- Se 50 <= média < 70, então $\color{#eded0c}{\textsf{Exame Final}}$
+- Se média >= 70, então $\color{#19cf20}{\textsf{Aprovado}}$
 - Se o número de faltas ultrapasse 25% do número total de aulas o aluno terá a situação $\color{#eb5252}{\textsf{Reprovado por Falta}}$, independente da média
 
 Caso a situação seja "Exame Final" é necessário calcular a "Nota para Aprovação Final" (naf) de  cada aluno de acordo com seguinte fórmula: 
 
-$$ 5 <= {média +  naf \over 2} $$
+$$ 50 <= {média +  naf \over 2} $$
 
 Caso a situação do aluno seja diferente de "Exame Final", o campo "Nota para  Aprovação Final" será 0.
 
