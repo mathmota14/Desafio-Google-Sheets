@@ -41,4 +41,4 @@ Caso a situação do aluno seja diferente de "Exame Final", o campo "Nota para  
 
 ![image](https://github.com/mathmota14/Desafio-Google-Sheets/assets/92896528/8c3a9e3f-ad95-4632-907d-e791001f68b6)
 
-OBS: Ao executar o challenge.py você terá 3 arquivos na pasta que você selecionou: challenge.py, credentials.json e token.json.
+OBS: Ao executar o challenge.py você terá 3 arquivos na pasta que você selecionou: challenge.py, credentials.json e token.json. Não coloquei meus arquivos credentials.json e token.json aqui no repositório por questões de segurança.
